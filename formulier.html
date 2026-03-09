@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Formulier</title>
+	</head>
+	<body>
+		<form action="toon_waarden.php" method="post" >
+					<p>Voornaam : <input type="text" name="voornaam" /></p>
+        	<br>        	
+					<p>Achternaam : <input type="text" name="achternaam" /></p>
+					<br>
+					<p>Geboortejaar : <input type="text" name="geboortejaar" /></p>
+					<br>
+					<p>Geslacht :
+					<select name="Geslacht">
+									<option>Man</option>
+									<option>Vrouw</option>
+									<option>Ander</option>
+									<option>Zeg ik liever niet</option>
+					</select>
+					</p>
+					<br>
+					<p>e-mailadres : <input type="text" name="e-mailadres" /></p>
+					<br>
+					<p>Vorige uitgeoefende sport(en) : </p>
+					<p><input type="checkbox" name="Geen vorige sport" value="Geen" />Geen</p>
+					<p><input type="checkbox" name="Deed voetbal" value="Voetbal" />Voetbal</p>
+					<p><input type="checkbox" name="Deed atletiek" value="Atletiek" />Atletiek</p>
+					<p><input type="checkbox" name="Deed tennis" value="Tennis" />Tennis</p>
+					<p><input type="checkbox" name="Deed dans" value="Dans" />Dans</p>
+					<p>Andere : </p>
+					<textarea name="Andere" rows="5" cols="40" ></textarea>
+					<br>
+					<p>Welke proefdag wil je volgen?
+					<p><input type="radio" name="Dag" value="Maandag" />Maandag</p>
+					<p><input type="radio" name="Dag" value="Woensdag" />Woensdag</p>
+					<p><input type="radio" name="Dag" value="Vrijdag" />Vrijdag</p>
+					<br>
+					<p>Einde : <input type="submit" name="verzend" value="Verzend formulier" /></p>
+        
+        </form>
+
+	</body>
+</html>
